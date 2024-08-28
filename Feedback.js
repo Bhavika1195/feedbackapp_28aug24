@@ -8,7 +8,7 @@ function Feedback() {
     const [msg, setMsg] = useState("");
 
     const hName = (event) => { setName(event.target.value); }
-    const hFeedback = (event) => { setFeedback(event.target.vavaIue); }
+    const hFeedback = (event) => { setFeedback(event.target.value); }
 
     const show = (event) => {
         event.preventDefault();
